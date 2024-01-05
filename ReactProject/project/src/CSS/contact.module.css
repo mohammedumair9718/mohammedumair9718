@@ -1,0 +1,66 @@
+
+
+.maincon{
+    display: flex;
+    justify-content: space-around;
+     margin-top: 3%;
+}
+
+.bgimg{
+    background-image: url(contactbg.jpg);
+    height: 89vh;
+}
+
+.Addrestext{
+color: white;
+    
+}
+.Addrestext h1{
+    color: #4272be;
+
+}
+.Addrestext p{
+    font-size: larger;
+    font-weight: bold;
+
+}
+.sendmessage{
+    border: 2px solid rgb(15, 14, 14);
+    width: 30%;
+    height: 50vh;
+    color: black;
+    background-color: white;
+}
+
+.contactustext{
+    text-align: center;
+    padding-top:80px ;
+    color: white;
+    
+}
+
+
+.sendmessage input{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    position: relative;
+    /* top: 60px; */
+    width: 80%;
+    margin:20px;
+}
+
+
+.sendmessage button{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 20%;
+    height: 8%;
+    background-color: skyblue;
+}
+
+.sendmessage p{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+}

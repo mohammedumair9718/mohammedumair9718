@@ -1,0 +1,58 @@
+.Nave {    
+    border: 2px solid #000000;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.Navecontant {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Navecontant li {
+    margin-left: 40px;
+    list-style: none;
+}
+
+
+.Navecontain {
+    /* width: 100vw; */
+    margin-left: 20%;
+}
+
+.button {
+    border-radius: 5px;
+    width: 6rem;
+    margin-left: 1rem;
+}
+
+img {
+    height: 20px;
+}
+
+img {
+    background-image: url(hd_bg.jpj);
+}
+
+/* @media (max-width: 600px) {
+
+    .Navecontant {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .Navecontain{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+.Navecontain{
+    display: none;
+}
+} */

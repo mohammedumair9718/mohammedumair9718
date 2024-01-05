@@ -1,0 +1,15 @@
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .maincart{
+        display: flex;  
+        /* background-color: aqua; */
+        flex-direction: column;
+    }
+    
+}

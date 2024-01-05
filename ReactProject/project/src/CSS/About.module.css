@@ -1,0 +1,51 @@
+
+
+.aboutmain{
+    
+    background-image: url(aboutback.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.abouttext h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.abouttext p{
+   
+    margin-left: 20px;
+    margin-right:20px;
+    
+}
+.abouttext{
+    border: 2px solid red;
+    width: 50%;
+    background-color: white;
+    height: 50%;
+    margin-left: 25%;
+    position: absolute;
+    top: 30%;
+    
+}
+
+.abouttext ul {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 800px) {
+    .abouttext ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abouttext{
+        height: 75%;
+    }
+    
+}

@@ -1,0 +1,58 @@
+.btnAllcat {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.btncards {
+    display: flex;
+    gap: 20px;
+}
+
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Create four equal-width columns */
+    grid-gap: 10px;
+    border: 5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.Allcards {
+    width: 80%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .cardcontainer {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+        border: none;
+    }
+
+    .btnAllcat {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Create four equal-width columns */
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+.cardcontainer {
+        /* display: grid; */
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* margin-left: 50px; */
+        /* border: none; */
+    }
+    
+}

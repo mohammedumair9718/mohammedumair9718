@@ -1,0 +1,38 @@
+.bg {
+    
+    background: linear-gradient(to right,#2f192f,rgb(88,126,203),rgb(19,88,159));
+    
+}
+
+
+
+.contain {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    height: 100vh;          
+    
+}
+
+.contain input{
+    height: 3rem;
+    width: 15rem;
+    margin-top: 10px;
+border-left: none;
+border-top: none;
+border-right: none;
+    box-shadow:  0 0 6px rgba(249, 249, 249, 0.1);
+    background-color: rgb(31,56,124);
+    padding-left: 10px;
+
+}
+
+
+.contain button{
+    /* style={{ width: "5rem", height: "2rem", borderRadius: "10px", backgroundColor: "#3eb5ff" }} */
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #3eb5ff;
+}

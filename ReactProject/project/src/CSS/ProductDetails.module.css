@@ -1,0 +1,47 @@
+
+
+
+.cardcontainer{
+    display: flex;
+    margin-top: 5rem;
+    /* margin-left: 10rem; */
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .cardcontainer{
+        flex-direction: column;
+
+    }
+    .cardcontainer img{
+        width: 200px;
+        height: 100%;
+    }
+    
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .cardcontainer{
+        align-items: center;
+
+    }
+    .cardcontainer img{
+
+        width: 250px;
+        height: 100%;
+    }
+    
+
+
+}
+
+
+
+

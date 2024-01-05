@@ -1,0 +1,72 @@
+.bg {
+    height: 100vh;
+    margin: 0%;
+    background: linear-gradient(to top, #9986d8, #6280fa, #b2c1e8);
+}
+
+
+.boxcon{   
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;   
+    
+}
+
+
+.containt{
+    text-align: center;
+    background: linear-gradient(to top,#321396, #123294,#abbbe6);
+    box-shadow: 0 0 30px rgba(10, 10, 10,10);
+}
+
+
+.btn{
+    border-radius: 100px 100px 0px 0px;
+    width: 23rem;
+    height: 3rem;
+    margin-top: 3rem;
+    
+}
+
+.containt input{
+    height: 40px;
+    width: 18em;
+    border: none;
+    padding-left: 20px;
+
+
+}
+
+.singnbtn{
+height: 2.5rem;
+width: 12rem;
+background-color: rgb(146,148,234);
+color: rgb(237,233,233);
+font-weight: bold;
+}
+
+.containt h1{
+    margin: 40px;
+    font-weight: bold;
+}
+
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+.Allcards{
+   
+}
+
+.card-container{
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%; 
+    flex: 0 0 20%; /* Set the width of each card to 20% */
+    padding: 10px; /* Add some spacing between cards */
+    box-sizing: border-box;
+}
